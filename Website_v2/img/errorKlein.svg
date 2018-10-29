@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.783 9.783">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #db0029;
+        stroke: #db0029;
+        stroke-width: 0.8px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_359" data-name="Group 359" transform="translate(-297.555 -15.428)">
+    <g id="Group_356" data-name="Group 356" transform="translate(297.555 15.428)">
+      <g id="Ellipse_23" data-name="Ellipse 23" class="cls-1">
+        <circle class="cls-3" cx="4.892" cy="4.892" r="4.892"/>
+        <circle class="cls-4" cx="4.892" cy="4.892" r="4.492"/>
+      </g>
+    </g>
+    <g id="Group_357" data-name="Group 357" transform="translate(301.892 16.92)">
+      <path id="Path_401" data-name="Path 401" class="cls-2" d="M17.379,19.549h0A.358.358,0,0,1,17,19.17v-3.79A.358.358,0,0,1,17.379,15h0a.358.358,0,0,1,.379.379v3.79A.358.358,0,0,1,17.379,19.549Z" transform="translate(-16.775 -15)"/>
+      <rect id="Rectangle_448" data-name="Rectangle 448" class="cls-2" width="0.758" height="1.516" transform="translate(0.225 1.763)"/>
+      <circle id="Ellipse_26" data-name="Ellipse 26" class="cls-2" cx="0.606" cy="0.606" r="0.606" transform="translate(0 5.611)"/>
+    </g>
+  </g>
+</svg>
