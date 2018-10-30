@@ -9,7 +9,7 @@ Op de mobiele versie van de overzichtspagina wordt een deel van de filters niet 
 Ook heb ik bij filters de zoekresultaten laten optellen en deze laten verschijnen in een button.  Hiervoor haal ik in javascript alle velden op en laat vervolgens de values van de geselecteerde velden bij elkaar optellen. Om de error state te tonen heb ik in javascript aangegeven dat als er op de checkbox 'fictie' word geklikt, de download button veranderd in "geen resultaten".
 
 ### Download
-Het is de bedoeling dat de gebruikers een verhaal kunnen downloaden. Om dit na te bootsen heb ik in mijn html de 4 iconen geplaatst die ik hiervoor nodig had. De download knop staat meteen al op actief en is dus ook zichtbaar. Ik heb een var gemaakt van de download knoppen en hier een click event op gezet. Als hier vervolgens op wordt geklikt word het downlaod icoon verwijderd en het laad icoon toegevoegd. Op het laad icoon heb ik een timeout gezet van 3 seconden en deze zal dus na die 3 seconden weer worden verwijderd en worden vervangen met een Check icoontje (dat het is gedownload), of een error icoon. Dit heb ik met een math random gedaan. Als het getal boven de 0.2 is zal het succes zijn en onder de 0.2 een error. Wanneer er op het error icoon word klikt komt er een pop-up melding.
+Het is de bedoeling dat de gebruikers een verhaal kunnen downloaden. Om dit na te bootsen heb ik in mijn html de 4 iconen geplaatst die ik hiervoor nodig had. De download knop staat meteen al op actief en is dus ook zichtbaar. Ik heb een var gemaakt van de download knoppen en hier een click event op gezet. Als hier vervolgens op wordt geklikt word het downlaod icoon verwijderd en het laad icoon toegevoegd. Op het laad icoon heb ik een timeout gezet van 3 seconden en deze zal dus na die 3 seconden weer worden verwijderd en worden vervangen met een Check icoontje (dat het is gedownload), of een error icoon. Dit heb ik met een math random gedaan. Als het getal boven de 0.2 is zal het succes zijn en onder de 0.2 een error. Wanneer er op het error icoon wordt geklikt komt er een pop-up melding.
 
 ## Verhaal pagina
 In mijn ontwerp voor de verhalenpagina is het de bedoeling dat bij elke scroll het verhaal een kwartslag draait en de blurtekst wisselt. Omdat scroll heel erg lastig was om uit te voeren heb ik dit met clicks gedaan. Door het tellen van het aantal clicks dat de gebruiker heeft gedaan op de verhaal pagina, weet ik bij welke stap hij/zij is en wat er dan moet gebeuren. Per click is er een set van acties. Dit herhaalt zich tot de gebruiker aan het eind van het verhaal is.
@@ -28,7 +28,7 @@ Dit zijn:
 
 Deze classes zijn toegevoegd aan de iconen voor het downloaden van een verhaal om in js makkelijker aan te kunnen spreken en te kunnen toevoegen/verwijderen/vervangen:
 
-    .Error, .succes, .download, .laden
+    .error, .succes, .download, .laden
 
 Om veel herhalende code te vermijden heb ik een class waar een styling op staat voor de maximale uitlijning zodat sommige delen van de pagina dezelfde uitlijning behouden als de main.
 
