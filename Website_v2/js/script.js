@@ -10,6 +10,12 @@ if (meerTonen_trigger) {
 
         genres_element.classList.toggle('is-open');
 
+        if (genres_element.classList.contains('is-open')) {
+            meerTonen_trigger.textContent = '- Minder tonen';
+        } else {
+            meerTonen_trigger.textContent = '+ Meer tonen';
+        }
+
     });
 }
 
@@ -19,8 +25,7 @@ for (var i = 0; i < download_knoppen.length; i++) {
 
     download_knoppen[i].addEventListener('click', function(event) {
 
-        var element = event.srcElement.parentElement; //even navragen
-
+        var element = event.srcElement.parentElement;
 
         if (element.querySelector('.download').classList.contains('is-actief')) {
 
@@ -47,7 +52,7 @@ for (var i = 0; i < download_knoppen.length; i++) {
                     document.querySelector('nav ul li .error').classList.add('is-actief');
 
                     element.querySelector('.error').addEventListener('click', function() {
-                        document.querySelector('#errorState').style.display = "block"
+                        document.querySelector('#errorState').style.display = "block";
 
                     });
 
@@ -98,6 +103,7 @@ if (document.querySelector('#verhaal')) {
     section1.addEventListener('click', klik);
     section2.addEventListener('click', klik);
     section3.addEventListener('click', klik);
+}
 
     function klik() {
          klikNummer++;
@@ -294,4 +300,3 @@ if (document.querySelector('#verhaal')) {
         }
 
     }
-}

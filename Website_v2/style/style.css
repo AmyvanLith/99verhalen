@@ -523,6 +523,15 @@ form button:hover {
     display: none;
 }
 
+@keyframes draaien {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 #overzicht main section:nth-of-type(2) article > ul li img.succes {
     display: none;
 }
@@ -533,6 +542,8 @@ form button:hover {
 
 #overzicht main section:nth-of-type(2) article > ul li img.laden {
     display: none;
+
+    animation: draaien infinite 2s;
 }
 
 #overzicht main section:nth-of-type(2) article > ul li img.is-actief {
